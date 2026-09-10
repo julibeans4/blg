@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: #f7e9dc;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.game-shell {
+  width: min(100%, 960px);
+  margin: 0 auto;
+  padding: 12px;
+}
+
+#game {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #14141e;
+  border: 2px solid #d77f66;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  cursor: pointer;
+}
+
+.game-help {
+  margin: 8px 0 0;
+  text-align: center;
+  font-size: 13px;
+  color: #5b3e35;
+}
